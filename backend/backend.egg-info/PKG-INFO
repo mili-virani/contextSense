@@ -1,0 +1,44 @@
+Metadata-Version: 2.4
+Name: backend
+Version: 0.1.0
+Summary: ContextSense FastAPI Backend
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi>=0.111.0
+Requires-Dist: uvicorn>=0.30.1
+Requires-Dist: pydantic>=2.7.4
+Requires-Dist: qdrant-client>=1.18.0
+Requires-Dist: sentence-transformers>=3.0.0
+Requires-Dist: transformers>=4.40.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: openai>=1.0.0
+Requires-Dist: langgraph>=0.1.0
+
+# ContextSense Backend
+
+FastAPI Python backend for ContextSense, using `uv` for dependency management.
+
+## Setup
+
+Ensure you have `uv` installed. Run:
+
+```bash
+uv pip install -e .
+```
+
+## Running the API
+
+To start the API in development mode:
+
+```bash
+uv run uvicorn backend.main:app --reload
+```
+
+## Testing
+
+To run backend tests:
+
+```bash
+uv run pytest
+```
