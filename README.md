@@ -124,10 +124,6 @@ npm run dev
 
 Required environment variables (see `.env.example`): `DEEPSEEK_API_KEY`, `GEMINI_API_KEY`, `ALPHA_VANTAGE_API_KEY`, `NOTION_API_KEY`, `NOTION_DATABASE_ID`, `QDRANT_URL`, `DATABASE_URL`.
 
-## Demo
-
-*[Screen recording / GIF here — a full run showing the reasoning trace and Critic evaluation is the most convincing 60 seconds of this whole project.]*
-
 ---
 
 Built by [mili-virani](https://github.com/mili-virani)
